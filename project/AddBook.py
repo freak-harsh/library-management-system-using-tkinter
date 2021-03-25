@@ -41,8 +41,6 @@ def addBook():
     render = ImageTk.PhotoImage(background_image)
     img= Label(root, image = render)
     img.place(x=0,y=0)
-    img = Canvas(root)
-
     
     mypass = "harsh"
     mydatabase="dbs"
