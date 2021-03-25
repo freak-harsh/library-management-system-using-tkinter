@@ -19,7 +19,7 @@ allBid = [] #List To store all Book IDs
 def returnn():
     
     global SubmitBtn,labelFrame,lb1,bookInfo1,quitBtn,root,status
-    
+
     bid = bookInfo1.get()
 
     extractBid = "select bid from "+issueTable
