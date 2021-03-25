@@ -18,8 +18,7 @@ bookTable = "books"
 allBid = [] 
 
 def issue():
-    
-    global issueBtn,labelFrame,lb1,inf1,inf2,quitBtn,root,Canvas1,status
+    global issueBtn,labelFrame,lb1,inf1,inf2,quitBtn,root,status
     
     bid = inf1.get()
     issueto = inf2.get()

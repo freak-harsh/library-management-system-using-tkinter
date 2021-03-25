@@ -38,8 +38,8 @@ def deleteBook():
     
 def delete(): 
     
-    global bookInfo1,bookInfo2,bookInfo3,bookInfo4,Canvas1,con,cur,bookTable,root
-    
+    global bookInfo1,bookInfo2,bookInfo3,bookInfo4,con,cur,bookTable,root
+      
     root = Toplevel()
     root.title("Library")
     root.minsize(width=400,height=400)
