@@ -18,9 +18,7 @@ allBid = [] #List To store all Book IDs
 def returnn():
     
     global SubmitBtn,labelFrame,lb1,bookInfo1,quitBtn,root,status
-
     bid = bookInfo1.get()
-
     extractBid = "select bid from "+issueTable
     try:
         cur.execute(extractBid)
@@ -109,3 +107,5 @@ def returnBook():
     quitBtn.place(relx=0.53,rely=0.9, relwidth=0.18,relheight=0.08)
     
     root.mainloop()
+    
+    
