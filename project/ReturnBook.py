@@ -13,7 +13,6 @@ cur = con.cursor()
 issueTable = "books_issued" #Issue Table
 bookTable = "books" #Book Table
 
-
 allBid = [] #List To store all Book IDs
 
 def returnn():
